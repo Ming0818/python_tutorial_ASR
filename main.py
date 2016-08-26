@@ -2,7 +2,7 @@
 # coding=gbk
 import tkFileDialog
 from Tkinter import *
-
+from classification_svm import simpleTest
 from util import *
 
 # define of params
@@ -70,10 +70,9 @@ class show_the_project:
 
     def start_identification(self, path='xxx.wav'):
         self.contents_result_entry.set(' ')
-        # TODO
-        pass  # send path to the identification func
-        pass  # return a value of whose
-        whose_vale = 'This is "xiao ming"'
+        speaker_name=simpleTest(path)
+
+        whose_vale = 'Hi, ' + speaker_name+' !'
 
         self.contents_result_entry.set(whose_vale)
         return 0
