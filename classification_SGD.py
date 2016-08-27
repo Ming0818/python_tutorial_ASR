@@ -78,5 +78,3 @@ def get__accucy(model="SGD.model"):
 
 
     return true_ans_percent
-# get_the_iter_accucy()#search a best value
-print get__accucy()

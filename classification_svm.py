@@ -160,14 +160,3 @@ def testRbf(k1=1.3):
             errorCount += 1
     print "the test error rate is: %2.2f%%" % ((float(errorCount) / m) * 100)
 
-
-if __name__ == '__main__':
-    simpleTest(wav='01.wav')
-    # print 'k1=%f' % 1.3
-    # testRbf(k1=1.3)
-    #
-    # print 'k1=%f' % 0.5
-    # testRbf(k1=0.5)
-    #
-    # print 'k1=%f' % 0.05
-    # testRbf(k1=0.05)
