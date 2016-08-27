@@ -1,11 +1,31 @@
 #!usr/bin/env python
 # coding=gbk
 import tkFileDialog
-from Tkinter import *
-from classification_svm import simpleTest
-from util import *
+import wave
+from Tkconstants import LEFT, SUNKEN, X, RIGHT
+
+from datetime import datetime
+from Tkinter import mainloop
+
+from Tkinter import StringVar
+
+from Tkinter import Entry
+
+from Tkinter import Frame
+
+from Tkinter import Tk
+
+from Tkinter import Button
+
+from Tkinter import Label
+from pyaudio import PyAudio, paInt16
+
 from classification_SGD import start_calssification_SGD
+
+
 # define of params
+from util import center_window
+
 NUM_SAMPLES = 2000
 framerate = 8000
 channels = 1

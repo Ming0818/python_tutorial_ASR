@@ -1,10 +1,9 @@
 from sklearn.externals import joblib
 from sklearn.linear_model import SGDClassifier
-
-from classification_svm import get_speaker_name
-from classification_svm import load_data_X_Y
-from classification_svm import load_data_user_chose
-from classification_svm import vote_the_max_times
+from util import get_speaker_name
+from util import load_data_X_Y
+from util import load_data_user_chose
+from util import vote_the_max_times
 from util import shuffle_two_list_X_Y
 
 
@@ -15,9 +14,9 @@ def start_calssification_SGD(wav):
     except IOError:
 
         print 'SGD classifer file doesnt exist, Train first'
-        a,b=load_data_X_Y('train')
-        X, y = shuffle_two_list_X_Y(a,b)
-        clf = SGDClassifier(loss="hinge", penalty="l2",n_iter=10000)
+        a, b = load_data_X_Y('train')
+        X, y = shuffle_two_list_X_Y(a, b)
+        clf = SGDClassifier(loss="hinge", penalty="l2", n_iter=10000)
         clf.fit(X, y)
 
     predict_result = clf.predict(load_data_user_chose(wav))
@@ -31,9 +30,9 @@ def get_the_iter_accucy(max_true_vale=70, model="SGD.model", iter_times=3):
     try:
         if iter_times > 0:
             print "left " + str(iter_times) + " iteration"
-            a,b=load_data_X_Y('train')
-            X, y = shuffle_two_list_X_Y(a,b)
-            clf = SGDClassifier(loss="hinge", penalty="l2",n_iter=100000)
+            a, b = load_data_X_Y('train')
+            X, y = shuffle_two_list_X_Y(a, b)
+            clf = SGDClassifier(loss="hinge", penalty="l2", n_iter=10000)
             clf.fit(X, y)
 
             testX, testY = load_data_X_Y('test')
@@ -66,9 +65,9 @@ def get_accucy(model="SGD.model"):
     except IOError:
 
         print 'SGD classifer file doesnt exist, Train first'
-        a,b=load_data_X_Y('train')
-        X, y = shuffle_two_list_X_Y(a,b)
-        clf = SGDClassifier(loss="hinge", penalty="l2",n_iter=10000)
+        a, b = load_data_X_Y('train')
+        X, y = shuffle_two_list_X_Y(a, b)
+        clf = SGDClassifier(loss="hinge", penalty="l2", n_iter=10000)
         clf.fit(X, y)
     testX, testY = load_data_X_Y('test')
     true_ans = 0
@@ -83,5 +82,5 @@ def get_accucy(model="SGD.model"):
     return true_ans_percent
 
 
-get_the_iter_accucy()
-print get_accucy()
+# get_the_iter_accucy()
+# print get_accucy()

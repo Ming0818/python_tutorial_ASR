@@ -1,8 +1,14 @@
 #!usr/bin/env python
 # coding=utf-8
 import wave
+from Tkconstants import LEFT
+
+from Tkinter import Tk
+
+from Tkinter import Button
+
+from Tkinter import Label
 from datetime import datetime
-from Tkinter import *
 from pyaudio import PyAudio, paInt16
 
 # define of params

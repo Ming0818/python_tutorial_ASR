@@ -1,18 +1,92 @@
 # !/usr/bin/python2
 # coding=utf-8
-
-
-from Tkinter import Label, Button
-
+import os
+import wave
+from datetime import datetime
 import pylab
 import scipy
 import scipy.io.wavfile as wf
 import spectrum
-from numpy import array
+from Tkinter import Label, Button
 from numpy.random import shuffle
-import wave
-from datetime import datetime
 from pyaudio import PyAudio, paInt16
+from mfcc_feature import mfcc
+
+
+def load_data_X_Y(dir_path_to_dataset):
+    print_true = True
+    X = []  # array
+    Y = []
+    for parent, dirnames, filenames in os.walk(dir_path_to_dataset):
+
+        for filename in filenames:
+            if '.wav' in filename:
+                wav_file_path = os.path.join(parent, filename)
+                if 'adam_traba' in wav_file_path:
+                    y = 1
+                elif 'bartek_bulat' in wav_file_path:
+                    y = 2
+                elif 'damian_bulat' in wav_file_path:
+                    y = 3
+                elif 'katarzyna_konieczna' in wav_file_path:
+                    y = 4
+                elif 'konrad_malawski' in wav_file_path:
+                    y = 5
+                elif 'szczepan_bulat' in wav_file_path:
+                    y = 6
+
+                srate, wav_file_data = wf.read(wav_file_path)
+                feat_mfcc_of_music = mfcc(wav_file_data, srate)
+                # numpy.arry
+                frames_total = len(feat_mfcc_of_music[:, 1])
+                Y = Y + [y] * frames_total
+                feat_mfcc_of_music_list = feat_mfcc_of_music.tolist()
+
+                for frame in range(frames_total):
+                    X = X + [feat_mfcc_of_music_list[frame]]
+
+    return X, Y
+
+
+def load_data_user_chose(wav_path_to_data):
+    X = []
+
+    srate, wav_file_data = wf.read(wav_path_to_data)
+    feat_mfcc_of_music = mfcc(wav_file_data, srate)
+    frames_total = len(feat_mfcc_of_music[:, 1])
+
+    feat_mfcc_of_music_list = feat_mfcc_of_music.tolist()
+
+    for frame in range(frames_total):
+        X = X + [feat_mfcc_of_music_list[frame]]
+
+    return X
+
+
+def vote_the_max_times(data_pridect_Y):
+    data_pridect_Y = data_pridect_Y.tolist()
+    items = dict([(data_pridect_Y.count(i), i) for i in data_pridect_Y])
+    max_times = (int(items[max(items.keys())]))
+    return max_times
+
+
+def get_speaker_name(vote):
+    if vote == 1:
+        pridect_name = 'adam'
+    elif vote == 2:
+        pridect_name = 'bartek'
+    elif vote == 3:
+        pridect_name = 'damian'
+
+    elif vote == 4:
+        pridect_name = 'katarzyna'
+    elif vote == 5:
+        pridect_name = 'konrad'
+    elif vote == 6:
+        pridect_name = 'szczepan'
+    else:
+        pridect_name = 'not exist in our system'
+    return pridect_name
 
 
 def my_button(root, label_text, button_text, button_func):
@@ -78,6 +152,7 @@ def record_wave():
     print filename, "saved"
     return 0
 
+
 def shuffle_two_list_X_Y(X=[[1, 2], [2, 4]], Y=[3, 6]):
     len_list = len(Y)
     # print len_list
@@ -94,9 +169,10 @@ def shuffle_two_list_X_Y(X=[[1, 2], [2, 4]], Y=[3, 6]):
 
     return shuffled_X, shuffled_Y
 
-def shuff_input_data(inputXs=array([1, 2, 3, 4]), outputYs=array([2, 3, 4, 5]), shuffled=True):
+
+def shuff_input_data(inputXs=scipy.array([1, 2, 3, 4]), outputYs=scipy.array([2, 3, 4, 5]), shuffled=True):
     row_num = len(inputXs)
-    idx = array(range(row_num))
+    idx = scipy.array(range(row_num))
     shuffled and shuffle(idx)
     return (inputXs[idx], outputYs[idx])
 

@@ -1,9 +1,5 @@
-# calculate filterbank features. Provides e.g. fbank and mfcc features for use in ASR applications
-# Author: James Lyons 2012
 from __future__ import division
-
 import decimal
-
 import numpy
 import math
 from scipy.fftpack import dct
