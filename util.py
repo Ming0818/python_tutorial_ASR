@@ -100,6 +100,7 @@ def my_button(root, label_text, button_text, button_func):
     button['text'] = button_text
     button['command'] = button_func
     button.pack()
+    return 0
 
 
 def center_window(root, width, height):
