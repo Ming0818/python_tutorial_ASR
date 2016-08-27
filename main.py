@@ -4,7 +4,7 @@ import tkFileDialog
 from Tkinter import *
 from classification_svm import simpleTest
 from util import *
-
+from classification_SGD import start_calssification_SGD
 # define of params
 NUM_SAMPLES = 2000
 framerate = 8000
@@ -15,6 +15,19 @@ TIME = 10
 
 
 class show_the_project:
+    def start_identification(self):
+
+        self.contents_result_entry.set(' ')
+        path=self.contents_wave_path.get()
+        # speaker_name=simpleTest(path)#svm
+        speaker_name=start_calssification_SGD(path)
+
+
+        whose_vale = 'Hi, ' + speaker_name+' !'
+
+        self.contents_result_entry.set(whose_vale)
+        return 0
+
     def save_wave_file(self, filename, data):
         '''save the date to the wav file'''
         wf = wave.open(filename, 'wb')
@@ -68,14 +81,7 @@ class show_the_project:
         self.contents_wave_path.set(filename)
         return 0
 
-    def start_identification(self, path='xxx.wav'):
-        self.contents_result_entry.set(' ')
-        speaker_name=simpleTest(path)
 
-        whose_vale = 'Hi, ' + speaker_name+' !'
-
-        self.contents_result_entry.set(whose_vale)
-        return 0
 
     def __init__(self):
         root = Tk()

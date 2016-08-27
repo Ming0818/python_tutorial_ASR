@@ -90,25 +90,29 @@ def simpleTest(wav='01.wav'):
     print 'errorRate:', errorCount / 100
 
     data_pridect_Y=SVMClassifier_simple.svmClassify(dataX_test)
-    items = dict([(data_pridect_Y.count(i), i) for i in data_pridect_Y])
-    speaker_name=get_speaker_name(int(items[max(items.keys())]))
-    print data_pridect_Y
-    print items[max(items.keys())]
-    print speaker_name
+    vote=vote_the_max_times(data_pridect_Y)
+
+    speaker_name=get_speaker_name(vote)
+
     return speaker_name
-def get_speaker_name(data_pridect_Y):
-    if data_pridect_Y==1:
+def vote_the_max_times(data_pridect_Y):
+    data_pridect_Y=data_pridect_Y.tolist()
+    items = dict([(data_pridect_Y.count(i), i) for i in data_pridect_Y])
+    max_times=(int(items[max(items.keys())]))
+    return max_times
+def get_speaker_name(vote):
+    if vote==1:
         pridect_name='adam'
-    elif data_pridect_Y==2:
+    elif vote==2:
         pridect_name = 'bartek'
-    elif data_pridect_Y==3:
+    elif vote==3:
         pridect_name = 'damian'
 
-    elif data_pridect_Y==4:
+    elif vote==4:
         pridect_name = 'katarzyna'
-    elif data_pridect_Y==5:
+    elif vote==5:
         pridect_name = 'konrad'
-    elif data_pridect_Y==6:
+    elif vote==6:
         pridect_name = 'szczepan'
     else:
         pridect_name='not exist in our system'
