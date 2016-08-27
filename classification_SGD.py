@@ -25,7 +25,7 @@ def start_calssification_SGD(wav):
 
 
 # print start_calssification_SGD()
-def get_the_iter_accucy(max_true_vale=60, model="SGD.model", iter_times=1000):
+def get_the_iter_accucy(max_true_vale=65, model="SGD.model", iter_times=1000):
     try:
         if iter_times>0:
             print "this is the "+str(iter_times)+"nd iteration"
@@ -79,3 +79,4 @@ def get__accucy(model="SGD.model"):
 
     return true_ans_percent
 # get_the_iter_accucy()#search a best value
+print get__accucy()

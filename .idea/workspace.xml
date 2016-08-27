@@ -2,251 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cb75342-219e-4c11-beac-001dcd646822" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classification_SGD.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/imie/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/imie/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/imie/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/imie/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/imie/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/imie/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/kot/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/kot/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/kot/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/kot/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/kot/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/kot/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/kot/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/kot/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/kot/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/kot/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/nazwisko/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/nazwisko/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/nazwisko/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/nazwisko/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/nazwisko/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/nazwisko/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/nazwisko/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/nazwisko/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/nazwisko/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/nazwisko/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/samochod/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/samochod/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/samochod/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/samochod/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/samochod/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/samochod/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/samochod/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/samochod/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/samochod/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/adam_traba/samochod/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/imie/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/imie/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/imie/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/imie/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/imie/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/imie/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/imie/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/imie/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/imie/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/imie/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/kot/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/kot/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/kot/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/kot/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/kot/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/kot/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/kot/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/kot/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/kot/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/kot/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/nazwisko/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/nazwisko/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/nazwisko/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/nazwisko/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/nazwisko/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/nazwisko/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/nazwisko/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/nazwisko/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/nazwisko/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/nazwisko/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/samochod/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/samochod/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/samochod/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/samochod/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/samochod/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/samochod/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/samochod/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/samochod/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/samochod/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/bartek_bulat/samochod/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/imie/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/imie/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/imie/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/imie/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/imie/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/imie/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/imie/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/imie/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/imie/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/imie/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/kot/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/kot/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/kot/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/kot/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/kot/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/kot/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/kot/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/kot/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/kot/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/kot/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/nazwisko/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/nazwisko/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/nazwisko/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/nazwisko/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/nazwisko/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/nazwisko/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/nazwisko/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/nazwisko/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/nazwisko/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/nazwisko/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/samochod/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/samochod/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/samochod/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/samochod/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/samochod/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/samochod/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/samochod/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/samochod/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/samochod/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/damian_bulat/samochod/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/imie/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/imie/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/imie/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/imie/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/imie/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/imie/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/imie/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/imie/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/imie/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/imie/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/kot/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/kot/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/kot/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/kot/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/kot/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/kot/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/kot/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/kot/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/kot/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/kot/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/nazwisko/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/nazwisko/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/nazwisko/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/nazwisko/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/nazwisko/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/nazwisko/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/nazwisko/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/nazwisko/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/nazwisko/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/nazwisko/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/samochod/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/samochod/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/samochod/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/samochod/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/samochod/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/samochod/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/samochod/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/samochod/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/samochod/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/katarzyna_konieczna/samochod/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/imie/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/imie/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/imie/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/imie/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/imie/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/imie/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/imie/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/imie/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/imie/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/imie/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/kot/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/kot/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/kot/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/kot/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/kot/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/kot/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/kot/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/kot/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/kot/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/kot/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/nazwisko/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/nazwisko/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/nazwisko/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/nazwisko/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/nazwisko/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/nazwisko/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/nazwisko/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/nazwisko/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/nazwisko/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/nazwisko/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/samochod/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/samochod/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/samochod/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/samochod/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/samochod/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/samochod/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/samochod/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/samochod/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/samochod/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/konrad_malawski/samochod/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/imie/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/imie/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/imie/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/imie/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/imie/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/imie/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/imie/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/imie/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/imie/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/imie/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/kot/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/kot/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/kot/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/kot/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/kot/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/kot/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/kot/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/kot/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/kot/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/kot/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/nazwisko/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/nazwisko/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/nazwisko/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/nazwisko/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/nazwisko/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/nazwisko/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/nazwisko/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/nazwisko/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/nazwisko/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/nazwisko/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/samochod/01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/samochod/02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/samochod/03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/samochod/04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/samochod/05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/samochod/06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/samochod/07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/samochod/08.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/samochod/09.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/szczepan_bulat/samochod/10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classification_svm.py" afterPath="$PROJECT_DIR$/classification_svm.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classification_SGD.py" afterPath="$PROJECT_DIR$/classification_SGD.py" />
     </list>
     <ignored path="python_tutorial_ASR.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -281,11 +37,11 @@
       <file leaf-file-name="classification_SGD.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classification_SGD.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+            <state relative-caret-position="164">
+              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
-                <element signature="e#1799#2429#0" expanded="false" />
+                <element signature="e#1922#2552#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -380,7 +136,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.classification_SGD">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -566,8 +322,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.classification_SGD" />
+        <item index="0" class="java.lang.String" itemvalue="Python.classification_SGD" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -588,14 +344,14 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21955128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21955128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5032051" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2571839" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2801724" sideWeight="0.4907932" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2801724" sideWeight="0.4907932" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.49679488" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.49679488" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -923,14 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/sklearn/utils/validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="385" column="0" selection-start-line="385" selection-start-column="0" selection-end-line="385" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classification_svm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -941,13 +689,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="385" column="0" selection-start-line="385" selection-start-column="0" selection-end-line="385" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classification_SGD.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        <state relative-caret-position="164">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
-            <element signature="e#1799#2429#0" expanded="false" />
+            <element signature="e#1922#2552#0" expanded="false" />
           </folding>
         </state>
       </provider>
