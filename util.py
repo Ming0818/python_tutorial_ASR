@@ -78,6 +78,21 @@ def record_wave():
     print filename, "saved"
     return 0
 
+def shuffle_two_list_X_Y(X=[[1, 2], [2, 4]], Y=[3, 6]):
+    len_list = len(Y)
+    # print len_list
+    index = [i for i in range(len_list)]
+    shuffled_X = [1] * len_list
+    shuffled_Y = [1] * len_list
+    # print index
+    shuffle(index)
+
+    # print index
+    for i in range(len(index)):
+        shuffled_X[i] = X[index[i]]
+        shuffled_Y[i] = Y[index[i]]
+
+    return shuffled_X, shuffled_Y
 
 def shuff_input_data(inputXs=array([1, 2, 3, 4]), outputYs=array([2, 3, 4, 5]), shuffled=True):
     row_num = len(inputXs)
