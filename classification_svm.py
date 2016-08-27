@@ -59,6 +59,7 @@ def simpleTest(wav='01.wav'):
     dataX_test=mat(dataX)
     datMat = mat(dataMatT)
     labelMat = mat(labelMatT).transpose()
+    print "begin try to load model"
 
     try:
         SVMClassifier_simple = objectLoadFromFile('SVMClassifier_simple.json')
@@ -75,6 +76,7 @@ def simpleTest(wav='01.wav'):
         SVMClassifier_simple.jsonDumps('SVMClassifier_simple.json')  # change to python default list
         # pdb.set_trace()
         SVMClassifier_simple.jsonLoadTransfer()  # change back to numpy matrix
+        print "save the model"
 
     m, n = datMat.shape
     errorCount = 0.0
@@ -113,7 +115,7 @@ def get_speaker_name(data_pridect_Y):
     return pridect_name
 
 def testRbf(k1=1.3):
-    dataArr, labelArr = loadDataSet('testSetRBF.txt')
+    dataArr, labelArr = load_data_X_Y('samples')
     datMat = mat(dataArr);
     labelMat = mat(labelArr).transpose()
     filename = 'SVMClassifier_Rbf_' + repr(k1).replace('.', '_') + '.json'
@@ -123,7 +125,7 @@ def testRbf(k1=1.3):
         SVMClassifier.jsonLoadTransfer()  # change back to numpy matrix
         print 'load SVMClassifier successfully'
     except IOError, ValueError:
-        from svm import *
+
         print 'SVM classifer file doesnt exist, Train first'
         testSvm = svmTrain(datMat, labelMat, 200, 0.001, ('rbf', k1))
         b, alpha = testSvm.smoP(10000)
@@ -142,9 +144,9 @@ def testRbf(k1=1.3):
             errorCount += 1
     print "the training error rate is: %2.2f%%" % ((float(errorCount) / m) * 100)
 
-    dataArr, labelArr = loadDataSet('testSetRBF2.txt')
+    dataArr, labelArr = load_data_X_Y('samples')
     errorCount = 0
-    datMat = mat(dataArr);
+    datMat = mat(dataArr)
     labelMat = mat(labelArr).transpose()
     m, n = shape(datMat)
     for i in range(m):
