@@ -27,7 +27,7 @@ def start_calssification_MNB(wav):
     return speaker_name
 
 
-def get_the_iter_accucy(max_true_vale=10, model="MNB.model", iter_times=3):
+def get_the_iter_accucy(max_true_vale=10, model="model/MNB.model", iter_times=3):
     try:
         if iter_times > 0:
             print "left " + str(iter_times) + " iteration"
@@ -63,7 +63,7 @@ def get_the_iter_accucy(max_true_vale=10, model="MNB.model", iter_times=3):
     return 0
 
 
-def get_accucy(model="MNB.model"):
+def get_accucy(model="model/MNB.model"):
     try:
         mnb = joblib.load(model)
         print 'load MNBClassifier successfully'

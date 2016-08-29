@@ -24,7 +24,7 @@ def start_calssification_GNB(wav):
     return speaker_name
 
 
-def get_the_iter_accucy(max_true_vale=70, model="GNB.model", iter_times=3):
+def get_the_iter_accucy(max_true_vale=70, model="model/GNB.model", iter_times=3):
     try:
         if iter_times > 0:
             print "left " + str(iter_times) + " iteration"
@@ -56,7 +56,7 @@ def get_the_iter_accucy(max_true_vale=70, model="GNB.model", iter_times=3):
     return 0
 
 
-def get_accucy(model="GNB.model"):
+def get_accucy(model="model/GNB.model"):
     try:
         gnb = joblib.load(model)
         print 'load GNBClassifier successfully'

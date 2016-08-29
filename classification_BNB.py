@@ -26,7 +26,7 @@ def start_calssification_BNB(wav):
     return speaker_name
 
 
-def get_the_iter_accucy(max_true_vale=56, model="BNB.model", iter_times=3):
+def get_the_iter_accucy(max_true_vale=56, model="model/BNB.model", iter_times=3):
     try:
         if iter_times > 0:
             print "left " + str(iter_times) + " iteration"
@@ -58,9 +58,9 @@ def get_the_iter_accucy(max_true_vale=56, model="BNB.model", iter_times=3):
     return 0
 
 
-def get_accucy(model="BNB.model"):
+def get_accucy(model="model/BNB.model"):
     try:
-        gnb = joblib.load(model)
+        bnb = joblib.load(model)
         print 'load BNBClassifier successfully'
     except IOError, ValueError:
 
@@ -82,5 +82,5 @@ def get_accucy(model="BNB.model"):
     return true_ans_percent
 
 
-get_the_iter_accucy()
-# print get_accucy()
+# get_the_iter_accucy()
+print get_accucy()

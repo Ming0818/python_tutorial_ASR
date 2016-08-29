@@ -26,7 +26,7 @@ def start_calssification_GP(wav):
     return speaker_name
 
 
-def get_the_iter_accucy(max_true_vale=10, model="GP.model", iter_times=3):
+def get_the_iter_accucy(max_true_vale=10, model="model/GP.model", iter_times=3):
     try:
         if iter_times > 0:
             print "left " + str(iter_times) + " iteration"
@@ -62,7 +62,7 @@ def get_the_iter_accucy(max_true_vale=10, model="GP.model", iter_times=3):
     return 0
 
 
-def get_accucy(model="GP.model"):
+def get_accucy(model="model/GP.model"):
     try:
         gp = joblib.load(model)
         print 'load GPClassifier successfully'
