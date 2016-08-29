@@ -5,7 +5,7 @@ from util import load_data_X_Y
 from util import load_data_user_chose
 from util import vote_the_max_times
 from util import shuffle_two_list_X_Y
-
+# 70%
 
 def start_calssification_SGD(wav):
     try:
