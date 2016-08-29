@@ -3,7 +3,7 @@ from util import load_data_user_chose, vote_the_max_times, get_speaker_name
 from util import load_data_X_Y
 from util import shuffle_two_list_X_Y
 from sklearn.naive_bayes import GaussianNB
-# 63%   76 70 63 56
+# 63%   76 70 63 63 56
 def start_calssification_GNB(wav):
     try:
         gnb = joblib.load('GNB.model')
