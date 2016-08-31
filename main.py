@@ -3,7 +3,7 @@
 import tkFileDialog
 import wave
 from Tkconstants import LEFT, SUNKEN, X, RIGHT
-
+from vote_result import use_the_ASR
 from datetime import datetime
 from Tkinter import mainloop
 
@@ -22,7 +22,6 @@ from pyaudio import PyAudio, paInt16
 
 from classification_SGD import start_calssification_SGD
 
-
 # define of params
 from util import center_window
 
@@ -36,15 +35,10 @@ TIME = 10
 
 class show_the_project:
     def start_identification(self):
-
         self.contents_result_entry.set(' ')
-        path=self.contents_wave_path.get()
-        # speaker_name=simpleTest(path)#svm
-        speaker_name=start_calssification_SGD(path)
-
-
-        whose_vale = 'Hi, ' + speaker_name+' !'
-
+        path = self.contents_wave_path.get()
+        speaker_name = use_the_ASR(path)  # start identification
+        whose_vale = 'Hi, ' + speaker_name + ' !'
         self.contents_result_entry.set(whose_vale)
         return 0
 
@@ -100,8 +94,6 @@ class show_the_project:
         print filename
         self.contents_wave_path.set(filename)
         return 0
-
-
 
     def __init__(self):
         root = Tk()

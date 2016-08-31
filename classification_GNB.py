@@ -6,7 +6,7 @@ from sklearn.naive_bayes import GaussianNB
 # 63%   76 70 63 63 56
 def start_calssification_GNB(wav):
     try:
-        gnb = joblib.load('GNB.model')
+        gnb = joblib.load('model/GNB.model')
         print 'load GNBClassifier successfully'
     except IOError:
 
@@ -15,7 +15,7 @@ def start_calssification_GNB(wav):
         X, y = shuffle_two_list_X_Y(a, b)
         gnb = GaussianNB()
         gnb.fit(X, y)
-        joblib.dump(gnb, 'GNB.model')
+        joblib.dump(gnb, 'model/GNB.model')
         print "update the model"
 
     predict_result = gnb.predict(load_data_user_chose(wav))
@@ -81,4 +81,4 @@ def get_accucy(model="model/GNB.model"):
 
 
 # get_the_iter_accucy()
-print get_accucy()
+# print get_accucy()

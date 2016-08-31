@@ -6,7 +6,7 @@ from sklearn.tree import DecisionTreeClassifier
 # 63%
 def start_calssification_DT(wav):
     try:
-        dt = joblib.load('DT.model')
+        dt = joblib.load('model/DT.model')
         print 'load DTClassifier successfully'
     except IOError:
 
@@ -15,7 +15,7 @@ def start_calssification_DT(wav):
         X, y = shuffle_two_list_X_Y(a, b)
         dt = DecisionTreeClassifier()
         dt.fit(X, y)
-        joblib.dump(dt, 'DT.model')
+        joblib.dump(dt, 'model/DT.model')
         print "update the model"
 
     predict_result = dt.predict(load_data_user_chose(wav))
@@ -81,4 +81,4 @@ def get_accucy(model="model/DT.model"):
 
 
 # get_the_iter_accucy()
-print get_accucy()
+# print get_accucy()

@@ -9,7 +9,7 @@ from util import vote_the_max_times
 
 def start_GradientBoostingClassifier(wav):
     try:
-        clf = joblib.load('model/GB.model')
+        clf = joblib.load('model/GB/GB.model')
         print 'load GB model successfully'
     except IOError:
 
@@ -97,4 +97,4 @@ def get_accucy(model="model/GB/GB.model"):
     return true_ans_percent
 
 # get_the_iter_accucy()
-print get_accucy()
+# print get_accucy()

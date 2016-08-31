@@ -6,7 +6,7 @@ from sklearn.naive_bayes import BernoulliNB
 # 56%
 def start_calssification_BNB(wav):
     try:
-        bnb = joblib.load('BNB.model')
+        bnb = joblib.load('model/BNB.model')
         print 'load BNBClassifier successfully'
     except IOError:
 
@@ -15,7 +15,7 @@ def start_calssification_BNB(wav):
         X, y = shuffle_two_list_X_Y(a, b)
         bnb = BernoulliNB()
         bnb.fit(X, y)
-        joblib.dump(bnb, 'BNB.model')
+        joblib.dump(bnb, 'model/BNB.model')
         print "update the model"
 
     predict_result = bnb.predict(load_data_user_chose(wav))
@@ -81,4 +81,4 @@ def get_accucy(model="model/BNB.model"):
 
 
 # get_the_iter_accucy()
-print get_accucy()
+# print get_accucy()

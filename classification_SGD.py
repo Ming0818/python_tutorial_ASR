@@ -9,7 +9,7 @@ from util import shuffle_two_list_X_Y
 
 def start_calssification_SGD(wav):
     try:
-        sgd = joblib.load('SGD.model')
+        sgd = joblib.load('model/SGD.model')
         print 'load SGDClassifier successfully'
     except IOError:
 
@@ -83,4 +83,4 @@ def get_accucy(model="model/SGD.model"):
 
 
 # get_the_iter_accucy()
-print get_accucy()
+# print get_accucy()
