@@ -49,6 +49,10 @@ but it produce too many model components to store.
 # classification_GNB.py
 this is the sklern naive_bayes GaussianNB,
 and it reach to just 63%
+# vote_result.py
+add a vote decsion , every method have the acurrcy number ticiks to vote the final answer.
+after the vote , we achived  96% at test set.
+
 
 # [beta1.0](https://github.com/zhangxulong/python_tutorial_ASR/releases)
  
